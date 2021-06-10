@@ -8,6 +8,129 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <header id="header">
+        <a class="logo" href="#">
+          <img id="header-img" src="./images/coffee-cup.png" alt="" />
+          <p>Starling Cafe</p>
+        </a>
+        <nav id="nav-bar" class="nav-links">
+          <a class="nav-link" href="#products">Products</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#about">About Us</a>
+        </nav>
+        <div class="menu" id="menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </header>
+    </nav>
+    <div class="hero">
+      <nav>
+        <h1><a href="#">STARLING CAFE</a></h1>
+      </nav>
+      <div class="hero-content">
+        <h1>The Best cafe on Earth</h1>
+        <hr />
+        <p>We deserve better than Buck</p>
+        <button>Order now</button>
+      </div>
+    </div>
+    <div class="product-section" id="products">
+      <h1>Choose Your Menus</h1>
+      <div class="product-cards">
+        <div class="card-product">
+          <img src="./images/black coffe.jpg" alt="" />
+          <div class="product-details">
+            <h3>Black Coffee</h3>
+            <hr />
+            <p class="desc">
+              Black coffee with a variety of distinctive aroma served in plastic
+              cups.
+            </p>
+            <p class="price">$10</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-product">
+          <img src="./images/milk coffe.jpg" alt="" />
+          <div class="product-details">
+            <h3>Milk Coffee</h3>
+            <hr />
+            <p class="desc">
+              Milk Coffee with a variety of distinctive aroma served in plastic
+              cups.
+            </p>
+            <p class="price">$15</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="./images/orange cup.jpg" alt="" />
+          <div class="product-details">
+            <h3>Orange Juice</h3>
+            <hr />
+            <p class="desc">
+              Orange juice in sachets served in plastic cups, has hot and cold
+              variants.
+            </p>
+            <p class="price">$15</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" id="services">
+      <h1>Services</h1>
+      <div class="card-services">
+        <div class="card-service">
+          <img class="service-icon" src="./images/clock.png" alt="" />
+          <h3>Fast Response</h3>
+        </div>
+        <div class="card-service">
+          <img class="service-icon" src="./images/heart.png" alt="" />
+          <h3>Made With Love</h3>
+        </div>
+        <div class="card-service">
+          <img class="service-icon" src="./images/piggybank.png" alt="" />
+          <h3>Best Price</h3>
+        </div>
+      </div>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ZZYgp_mr6Ks"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="about" id="about">
+      <h1>About us</h1>
+      <p>
+        We are passionate purveyors of coffee and everything else that goes with
+        a rewarding coffeehouse experience. We also offer a selection of premium
+        Tea, fine pastries and other delectable treats to please the taste buds.
+        And the music you hear in store is chosen for its artistry and appeal.
+        People come to Starling to chat, meet up or work.
+      </p>
+      <p>Get discount and newsletter from us by fill your email below</p>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter Your Email Here"
+        />
+        <input id="submit" type="submit" />
+      </form>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
